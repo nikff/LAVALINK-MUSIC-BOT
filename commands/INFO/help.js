@@ -11,7 +11,7 @@ module.exports = {
  .setURL(`https://github.com/parasop`)
 .setDescription(`
 
-**Everyone comammds**
+**Music**
 \`clear,join,leave,loop,move,nowplaying,pause,play,previous,queue,remove,resume,search,skip,seek,stop,volume\`
 
 **Filters commands**
@@ -20,10 +20,10 @@ module.exports = {
 **Utility commands**
 \`about,prefix,ping,lava,uptime,invite,shard\`
 
-**PARAS DOCS**
-[JOIN SUPPORT SERVER](https://discord.gg/SY7DjDpwpk)`)
+**Maxx**
+[JOIN SUPPORT SERVER](https://discord.gg/f27NGw5bPV)`)
  
-.setFooter("MADE BY PARAS")
+.setFooter("MADE BY Nik")
 message.channel.send(embed)
   }
 }
