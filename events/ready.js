@@ -11,10 +11,10 @@ module.exports = {
  
     setInterval(() => {
       const statuses = [
-        `>help`,
-        `+india's pride `,
+        `+help`,
+        `High quality Sound `,
         `24/7 vc`,
-        `v2.0.0`,
+        `v1.0.0`,
       ];
       const status = statuses[Math.floor(Math.random() * statuses.length)];
       client.user.setActivity(status, { type: "LISTENING" });
