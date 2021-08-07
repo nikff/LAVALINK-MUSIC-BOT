@@ -15,8 +15,8 @@ run : async (client,message,args )=> {
     
 .addField(`
 **DEVELOPERS**`,
-`PARAS OPᴰᴱⱽ#9237
-BLOODY `)
+`Nik`)
+
 
 .addField(`**PLATFORM**`,
 `${process.platform}`)
