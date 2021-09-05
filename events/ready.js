@@ -11,10 +11,7 @@ module.exports = {
  
     setInterval(() => {
       const statuses = [
-        `+help`,
-        `High quality Sound `,
-        `24/7 vc`,
-        `v1.0.0`,
+        `@NIGHTCORE`,
       ];
       const status = statuses[Math.floor(Math.random() * statuses.length)];
       client.user.setActivity(status, { type: "LISTENING" });
