@@ -1,7 +1,7 @@
 {
-  "default_prefix" : "+",
+  "default_prefix" : "$",
  "owner" :  ["837745167812526104"],
- "DB": "mongodb+srv://ESPORTS:OO11C6gUCF8b3Ikl@esportss.nl393.mongodb.net/paras?retryWrites=true&w=majority",
+ "DB": "mongodb+srv://akg:akg@cluster0.kyx6x.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
 "log":  "873081862510247947", 
 "spotifyID" : "3c772cb0fa1642159603a1c897ddbfaf",
 "spotifySecret": "f1c4d9fce1d44fc4bf93145b8b3b2ed5",
