@@ -6,24 +6,29 @@ module.exports = {
   run: async (client,message,args) => { 
     
     const embed = new discord.MessageEmbed()
-    .setColor("BLUE")
- .setAuthor("help comammd",client.user.displayAvatarURL())
- .setURL(`https://github.com/parasop`)
+    .setColor("")
+    .setTitle(`Hey this is ${message.guild.me.displayName}! A Music bot which aims to Provide High Quality Music.`)
+ .setAuthor(`${message.guild.me.displayName} - Help Menu`, message.guild.me.user.avatarURL())
 .setDescription(`
 
-**Music**
-\`clear,join,leave,loop,move,nowplaying,pause,play,previous,queue,remove,resume,search,skip,seek,stop,volume\`
 
-**Filters commands**
-\`24/7,radio,bass,bassboost,deepbass,earrape,nightcore,pitch,pop,reset,soft,speed,television,vaporwave\`
+**• Music**
+\`clear join leave loop move nowplaying pause play previous queue remove resume search skip seek stop volume\`
 
-**Utility commands**
-\`about,prefix,ping,lava,uptime,invite,shard\`
+**• Filters**
+\`bass bassboost deepbass earrape nightcore pitch pop reset soft speed television vaporwave\`
 
-**Maxx**
-[JOIN SUPPORT SERVER](https://discord.gg/f27NGw5bPV)`)
- 
-.setFooter("MADE BY Nik")
+**• Info**
+\`about ping lava uptime invite\`
+
+**• EXCLUSIVE**
+\`radio\`
+
+**• Functions**
+\`24/7 prefix\`
+`)
+ .setThumbnail(client.user.displayAvatarURL())
+.setFooter("Developed by Nik")
 message.channel.send(embed)
   }
 }
