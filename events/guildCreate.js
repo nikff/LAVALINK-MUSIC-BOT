@@ -5,12 +5,12 @@ module.exports = {
 
 let embed = new MessageEmbed()
 
-.setTitle(`Thanks for adding me in your  server ☺`)
- .setColor("FF0000")
+.setTitle(`Thanks for adding me in your  server`)
+ .setColor("")
  .setDescription(`
- to get started, +play <song> It Can play from almost all Music Providers
+ to get started, ${prefix}play <song> It Can play from almost all Music Providers
  
- if you have any questions or need help with melody music [click here](https://discord.gg/4yeufeREFK) to talk with our staff team
+ if you have any questions or need help with max music [click here](https://dsc.gg/maxhq) to talk with our staff team
  
  `)
 
